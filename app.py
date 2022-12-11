@@ -1,4 +1,4 @@
-import keras
+from tensorflow import keras
 from keras.preprocessing.text import Tokenizer
 from keras_preprocessing.sequence import pad_sequences
 import numpy as np
