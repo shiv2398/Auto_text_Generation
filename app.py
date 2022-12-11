@@ -2,11 +2,8 @@ from keras.preprocessing.text import Tokenizer
 from keras_preprocessing.sequence import pad_sequences
 import numpy as np
 from tensorflow import keras
-
 import pickle
 import streamlit as st
-import time
-import base64
 with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
